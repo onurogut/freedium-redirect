@@ -1,15 +1,25 @@
-# Freedium Redirector Chrome Extension
+# Freedium Redirector Chrome/Firefox Extension
 
-Bu Chrome eklentisi, Medium.com linklerini otomatik olarak Freedium.cfd üzerinden açmanızı sağlar.
+Bu tarayıcı eklentisi, Medium.com veya Medium altyapısını kullanan sitelerdeki yazıları otomatik olarak Freedium.cfd üzerinden açmanızı sağlar.
 
 ## Kurulum
 
-1. Bu repoyu bilgisayarınıza indirin (direkt .zip olarak da koydum)
+### Chrome için
+
+1. Bu repoyu bilgisayarınıza indirin (veya doğrudan .zip olarak da indirebilirsiniz)
 2. Chrome tarayıcınızda `chrome://extensions/` adresine gidin
 3. Sağ üst köşedeki "Geliştirici modu"nu aktif edin
 4. "Paketlenmemiş öğe yükle" butonuna tıklayın
 5. İndirdiğiniz klasörü seçin
 
+### Firefox için
+
+1. Bu repoyu bilgisayarınıza indirin (veya .zip olarak indirin ve çıkarın)
+2. `manifest_firefox.json` dosyasının adını `manifest.json` olarak değiştirin
+3. Firefox'ta adres çubuğuna `about:debugging#/runtime/this-firefox` yazıp enter'a basın
+4. "Geçici Eklenti Yükle" butonuna tıklayın
+5. Klasörünüzdeki yeni `manifest.json` dosyasını seçin
+
 ## Kullanım
 
-Eklenti kurulduktan sonra, herhangi bir Medium.com linkine tıkladığınızda otomatik olarak Freedium.cfd üzerinden açılacaktır.
+Eklenti kurulduktan sonra, Medium.com veya Medium altyapılı bir siteye girdiğinizde otomatik olarak Freedium.cfd üzerinden yönlendirilirsiniz.
