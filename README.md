@@ -4,7 +4,7 @@ Bu Chrome eklentisi, Medium.com linklerini otomatik olarak Freedium.cfd üzerind
 
 ## Kurulum
 
-1. Bu repoyu bilgisayarınıza indirin
+1. Bu repoyu bilgisayarınıza indirin (direkt .zip olarak da koydum)
 2. Chrome tarayıcınızda `chrome://extensions/` adresine gidin
 3. Sağ üst köşedeki "Geliştirici modu"nu aktif edin
 4. "Paketlenmemiş öğe yükle" butonuna tıklayın
